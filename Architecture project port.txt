@@ -1,0 +1,59 @@
+Architecture Patterns
+
+  - App Router - Next.js 15 file-based routing (app/ directory)
+  - Component-based architecture - Modular React components
+  - Client-side components - All components use 'use client'
+  directive
+
+  Design Patterns
+
+  - Atomic design - Single-purpose components (Hero, Projects,
+  Contact, ThemeToggle)
+  - Container/Content pattern - Main layout wraps all content with        
+  max-width constraints
+  - Static data pattern - Project data defined as constants in
+  Project.tsx:3-16
+
+  UI/UX Building Blocks
+
+  - Responsive grid system - Tailwind's responsive classes
+  (md:text-5xl, md: breakpoints)
+  - Card pattern - Project cards with hover effects
+  (Project.tsx:24-52)
+  - Form pattern - Standard contact form with validation
+  (Contact.tsx:7-45)
+  - Button patterns - CTA buttons with hover states and transitions       
+  - Fixed positioning - Theme toggle as floating action button
+  (ThemeToggle.tsx:25-32)
+
+  Animation Patterns
+
+  - Framer Motion animations - Declarative animations with initial,       
+  animate, transition
+  - Staggered animations - Sequential delays (Hero elements: 0.2s,        
+  0.4s, 0.6s delays)
+  - Hover effects - CSS transitions on cards and buttons
+  - Spring animations - Profile image bounce effect (Hero.tsx:17)
+
+  Styling Architecture
+
+  - Utility-first CSS - Tailwind classes throughout
+  - Dark mode support - dark: variants and CSS custom properties
+  - Design tokens - CSS variables in globals.css:3-20 for theming
+  - Responsive design - Mobile-first approach with breakpoint
+  modifiers
+
+  State Management
+
+  - Local state - useState for theme toggle (ThemeToggle.tsx:6)
+  - DOM manipulation - Direct class manipulation for theme switching      
+  (ThemeToggle.tsx:14-22)
+
+  Development Patterns
+
+  - TypeScript strict mode - Type safety throughout
+  - ESLint integration - Code quality enforcement
+  - Modern React - React 19 with functional components and hooks
+
+  These patterns create a modern, maintainable, and scalable
+  portfolio structure.
