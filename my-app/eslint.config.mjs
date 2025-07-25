@@ -22,10 +22,8 @@ const config = [
       ".eslintcache"
     ]
   },
-
   // Apply Next.js ESLint configuration
   ...compat.extends("next/core-web-vitals")
 ];
-
 // Export the named variable
 export default config;
