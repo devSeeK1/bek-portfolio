@@ -1,3 +1,4 @@
+// eslint.config.mjs
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 import { FlatCompat } from "@eslint/eslintrc";
@@ -7,9 +8,9 @@ const __dirname = dirname(__filename);
 
 const compat = new FlatCompat({ baseDirectory: __dirname });
 
-// Assign the array to a variable before exporting
+// Assign the configuration array to a variable
 const config = [
-  // Ignore build files
+  // Ignore build files and node_modules
   {
     ignores: [
       ".next/**",
@@ -21,9 +22,10 @@ const config = [
       ".eslintcache"
     ]
   },
-  
+
   // Apply Next.js ESLint configuration
   ...compat.extends("next/core-web-vitals")
 ];
 
+// Export the named variable
 export default config;
