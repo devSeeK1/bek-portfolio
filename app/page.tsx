@@ -8,11 +8,14 @@ import { motion } from 'framer-motion'
 export default function Home() {
   return (
     <main className="px-6 py-12 max-w-4xl mx-auto">
-      <motion.div initial="initial" animate="animate" variants={{ initial: {}, animate: {} }}>
+      <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+      >
         <Hero />
         <Projects />
         <Contact />
-        
       </motion.div>
     </main>
   )

@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="text-center mb-16 mt-8">
       <motion.img
         src="/avatar.jpg"
-        alt=""
+        alt="Profile picture of BEK"
         width={120}
         height={120}
         

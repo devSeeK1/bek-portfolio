@@ -46,26 +46,29 @@ export default function Contact() {
         className="max-w-lg mx-auto"
       >
         <div className="mb-4">
-          <label className="block mb-2 text-sm font-medium">Name</label>
+          <label htmlFor="from_name" className="block mb-2 text-sm font-medium">Name</label>
           <input
             type="text"
+            id="from_name"
             name="from_name"
             className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 focus:ring-2 focus:ring-blue-500 focus:outline-none"
             required
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-2 text-sm font-medium">Email</label>
+          <label htmlFor="from_email" className="block mb-2 text-sm font-medium">Email</label>
           <input
             type="email"
+            id="from_email"
             name="from_email"
             className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 focus:ring-2 focus:ring-blue-500 focus:outline-none"
             required
           />
         </div>
         <div className="mb-6">
-          <label className="block mb-2 text-sm font-medium">Message</label>
+          <label htmlFor="message" className="block mb-2 text-sm font-medium">Message</label>
           <textarea
+            id="message"
             name="message"
             rows={4}
             className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 focus:ring-2 focus:ring-blue-500 focus:outline-none"

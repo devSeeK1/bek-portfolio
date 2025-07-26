@@ -6,8 +6,8 @@ import Chatbot from '../components/Chatbot'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Ezozbek| Portfolio',
-  description: 'Modern portfolio with Next.js & Tailwind',
+  title: 'Ezozbek | Portfolio',
+  description: 'Modern portfolio showcasing full-stack development and UI design skills with Next.js & Tailwind CSS',
 }
 
 export default function RootLayout({
