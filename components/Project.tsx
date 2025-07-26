@@ -3,17 +3,17 @@
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Dashboard",
+    title: "Doctor Appointment Booking System",
     desc: "Admin panel with analytics and user management.",
-    tech: ["React", "Node.js", "MongoDB"],
-    link: "https://github.com/ezozbek/ecommerce-dashboard",
+    tech: ["PHP", "CSS", "MYSQL"],
+    link: "https://github.com/devSeeK1/edoc-doctor-appointment-system",
   },
   {
     id: 2,
     title: "Task Management App", 
     desc: "Real-time collaborative to-do list.",
     tech: ["Next.js", "Tailwind", "Firebase"],
-    link: "https://github.com/ezozbek/task-manager",
+    link: "https://github.com/devSeeK1/edoc-doctor-appointment-system",
   },
 ]
 

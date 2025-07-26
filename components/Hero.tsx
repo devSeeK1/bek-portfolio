@@ -30,7 +30,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4 }}
       >
-        Full-Stack Developer & UI Designer
+        Full-Stack Developer & UI Designer 
       </motion.p>
       <motion.div
         initial={{ opacity: 0 }}
